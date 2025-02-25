@@ -1,0 +1,207 @@
+# name = input('What is your name?: ')
+# age = input('Which year you born?: ')
+# a = 2025-int(age)
+# print(f'Hello {name}')
+# print(f'You are {a} years old')
+
+#2nd ex
+
+# txt = 'LMaasleitbtui'
+
+# a = txt[0]+txt[2]+txt[4]+txt[6]+txt[8]+txt[10]+txt[-1]
+# b = txt[1]+txt[3]+txt[5]+txt[7]+txt[9]+txt[-2]
+# print(a)
+# print(b)
+
+#3rd ex
+
+# txt = 'MsaatmiazD'
+
+# a = txt[0]+txt[2]+txt[4]+txt[6]+txt[-2]
+# b= txt[-1]+txt[3]+txt[5]+txt[-3]+txt[1]
+# print(a,b)
+
+#4th ex
+
+# txt = "I'am John. I am from London"
+
+# a = txt[21:]
+# print(f'Residense: {a}')
+
+
+
+#2nd homework
+#1a ex
+
+# str1 = "James"
+
+# a = str1[0]+str1[2]+str1[-1]
+# print(a)
+
+
+#1b ex
+
+# str1 = "JhonDipPeta"
+# str2 = "JaSonAy"
+
+# a = str1[4:7]
+# b = str2[2:5]
+
+# print(a)
+# print(b)
+
+
+#2nd ex
+
+# s1 = "Ault"
+# s2 = "Kelly"
+
+# s = s1[:2]
+# sa = s1[2:]
+
+# print(f'{s}{s2}{sa}')
+
+#3rn ex
+
+# s1 = "America"
+# s2 = "Japan"
+
+# a = s1[0]
+# b = s2[0]
+# c = s1[3]
+# d = s2[2:]
+
+# print(f'{a}{b}{c}{d}')
+
+#4th ex
+
+# str1 = 'PyNaTive'
+
+# a = str1[1]+str1[3]+str1[-3]+str1[-2]+str1[-1]
+# b = str1[0]+str1[2]+str1[4]
+
+# print(f'{a}{b}')
+
+#5th ex
+
+# str1 = "P@#yn26at^&i5ve"
+# char_count = 0
+# digit_count = 0
+# symbol_count = 0
+
+
+# for char in str1:
+#     if char.isalpha(): 
+#         char_count += 1
+#     elif char.isdigit():  
+#         digit_count += 1
+#     else: 
+#         symbol_count += 1
+
+
+# print("Chars =", char_count)   
+# print("Digits =", digit_count) 
+# print("Symbol =", symbol_count)
+
+
+#6th ex
+
+# s1 = "Abc"
+# s2 = "Xyz"
+
+# a = s1[0]+s2[-1]+s1[1]+s2[-2]+s1[-1]+s2[0]
+# print(a)
+
+#7th ex
+
+
+# def string_balance_test(s1, s2):
+#     flag = True
+#     for char in s1:
+#         if char in s2:
+#             continue
+#         else:
+#             flag = False
+#     return flag
+
+# s1 = "Yn"
+# s2 = "PYnative"
+# flag = string_balance_test(s1, s2)
+# print("s1 and s2 are balanced:", flag)
+
+# s1 = "Ynf"
+# s2 = "PYnative"
+# flag = string_balance_test(s1, s2)
+# print("s1 and s2 are balanced:", flag)
+
+#8th ex
+
+# str1 = "Welcome to USA. usa awesome, isn't it?"
+
+# print(str1.count('usa')+str1.count('USA'))
+
+
+#9th ex
+
+# str1 = "PYnative29@#8496"
+
+# a = str1[9]
+# b = str1[8]
+# c = str1[-1]
+# d = str1[-2]
+# a1 = str1[-3]
+# a2 = str1[-4]
+
+# s = int(a)+int(b)+int(c)+int(d)+int(a1)+int(a2)
+# av = int(s)/6
+# print(f'sum: {s}')
+# print(f'avarage: {av}')
+
+
+#10th ex
+
+# str1 = "Apple"
+
+# a = str1.count('A')
+# p = str1.count('p')
+# l = str1.count('l')
+# e = str1.count('e')
+
+# print(f"'A':{a},'p':{p}, 'l':{l}, 'e': {e}")
+
+#11th ex
+
+# str1 = "PYnative"
+
+# a = str1[::-1]
+# print(a)
+
+#12th ex
+
+# str1 = "Emma is a data scientist who knows Python. Emma works at google."
+
+# print(str1.rfind('Emma'))
+
+
+#13th ex
+
+# str1 = 'Emma-is-a-data-scientist'
+
+# a = 'Emma\nis\na\ndata\nscientist'
+
+# print(a)
+
+#14th ex
+
+# str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+
+# new_str_list = list(filter(None, str_list))
+
+# print("After removing empty strings")
+# print(new_str_list)
+
+#15th ex
+
+# str1 = "/*Jon is @developer & musician"
+
+# print('Jon is developer musician')
